@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GCC_VERSION=gcc-7.2.0
+PREFIX=/home/$USER/$GCC_VERSION
+
+export PATH=${PREFIX}/bin:${PATH}
+export LD_LIBRARY_PATH=${PREFIX}/lib:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=${PREFIX}/lib64:${LD_LIBRARY_PATH}
