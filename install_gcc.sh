@@ -4,7 +4,7 @@
 echo "Downloading and Installing gcc dependencies"
 sudo yum install gcc gcc-c++ gcc-gfortran gcc-go gcc-objc gcc-objc++ tar wget gcc-gnat gzip bzip2 -y
 GCC_VERSION="gcc-7.2.0"
-PREFIX=/home/henry/$GCC_VERSION
+PREFIX=/home/$USER/$GCC_VERSION
 
 echo "Downloading ${GCC_VERSION} from FTP server"
 #Downloading gcc from germany ftp server
