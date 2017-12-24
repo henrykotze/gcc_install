@@ -25,7 +25,7 @@
 * If you type ```gcc --version``` in your terminal it will output the latest version that your package manager support. To ensure the newly installed gcc is used in each compiling of your code, you need to set your environmental variables. This can be done in 3 ways.
 
 1. export the environmental variables to locate the newly installed gcc. There is a drawback in this approach: You will need to export the variables in each new session you start. (This is my method, since in my case, its benefical)
-    Use my gcc-setenv.sh script
+    Use my gcc-setenv.sh script: ```source ./gcc-setenv.sh```
 
 2. Set the variables, in your bashrc file. This is a more permanent approach.
 
